@@ -1,0 +1,91 @@
+html,body
+{
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none !important;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.main-container {
+    color: rgba(33, 37, 41, 1);
+}
+
+header {
+    
+    & .logo {
+        float: left;
+        padding: .4rem .5rem;
+        & a
+        {
+            display: block;
+            & img
+            {
+                height: 45px;
+                max-width: 100%;
+            }
+        }
+    }
+    
+    background-color: #eee;
+    padding: .4rem 0 0;
+    
+    & .menu
+    {
+        padding: .4rem 2rem;
+        float: right;
+        & a
+        {
+            padding: 10px 20px;
+            margin: 0 10px;
+            &:hover
+            {
+                background-color: #db5e2a;
+                color: #230101;
+            }
+        }
+    }
+}
+
+
+.content-main
+{
+    padding: 100px 25px;
+}
+
+.rss-add-box
+{
+    padding: 20px 0px;
+}
+
+.rss-menu
+{
+    &-list
+    {
+        padding: 10px 0px;
+    }
+}
+.badge
+{
+    font-weight: 500 !important;
+}
+
+
+footer {
+    background-color: rgba(221, 72, 20, .8);
+    text-align: center;
+}
+footer .environment {
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem 1.75rem;
+}
+footer .copyrights {
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+}

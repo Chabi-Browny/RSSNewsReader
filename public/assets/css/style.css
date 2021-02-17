@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.main-container {
+  color: #212529;
+}
+
+header {
+  background-color: #eee;
+  padding: 0.4rem 0 0;
+}
+header .logo {
+  float: left;
+  padding: 0.4rem 0.5rem;
+}
+header .logo a {
+  display: block;
+}
+header .logo a img {
+  height: 45px;
+  max-width: 100%;
+}
+header .menu {
+  padding: 0.4rem 2rem;
+  float: right;
+}
+header .menu a {
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+header .menu a:hover {
+  background-color: #db5e2a;
+  color: #230101;
+}
+
+.content-main {
+  padding: 100px 25px;
+}
+
+.rss-add-box {
+  padding: 20px 0px;
+}
+
+.rss-menu-list {
+  padding: 10px 0px;
+}
+
+.badge {
+  font-weight: 500 !important;
+}
+
+footer {
+  background-color: rgba(221, 72, 20, 0.8);
+  text-align: center;
+}
+
+footer .environment {
+  color: white;
+  padding: 2rem 1.75rem;
+}
+
+footer .copyrights {
+  background-color: #3e3e3e;
+  color: #c8c8c8;
+  padding: 0.25rem 1.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
