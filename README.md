@@ -1,2 +1,2 @@
 # RSSNewsReader
-This is a RSS news reader based on CI 4.0.4.
+This is a RSS news reader based on CI 4.1.1.
